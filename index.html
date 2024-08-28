@@ -3,121 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proxy-Beta™ - Coming Soon</title>
+    <title>Proxy-Beta™ - Analytics for Loyalty and Subscription Programs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
+        body, html {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            font-family: 'Montserrat', sans-serif;
+            color: #000000;
+            background-color: #ffffff;
         }
         .container {
-            max-width: 1100px;
-            margin: auto;
-            overflow: hidden;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 0 20px;
         }
         header {
-            background: #1d4e5f;
-            color: #ffffff;
+            background-color: #ffffff;
             padding: 20px 0;
-            min-height: 70px;
-            border-bottom: #e67e22 3px solid;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header .branding {
-            float: left;
-        }
-        header .branding img {
+        .logo img {
             max-height: 50px;
-            vertical-align: middle;
         }
-        header nav {
+        nav {
             float: right;
-            margin-top: 10px;
         }
-        header .highlight, header .current a {
-            color: #e67e22;
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
             font-weight: bold;
         }
-        header a:hover {
-            color: #e67e22;
-            font-weight: bold;
-        }
-        .showcase {
-            min-height: 400px;
-            background: #1d4e5f url('https://raw.githubusercontent.com/rebeccaforever1/proxybeta.xyz/84bd311fded1a0b2b707ec94b1e8ee85f16b6194/ProxyBetaLogo.png') no-repeat center center/contain;
+        .hero {
+            background-color: #ffffff;
             text-align: center;
-            color: #ffffff;
             padding: 100px 0;
         }
-        .showcase h1 {
-            font-size: 55px;
+        .hero h1 {
+            font-size: 2.5em;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
-        .showcase p {
-            font-size: 20px;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        .hero p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .newsletter {
-            padding: 50px;
+        .cta-button {
+            display: inline-block;
+            background-color: #000000;
             color: #ffffff;
-            background: #1d4e5f
-        }
-        .newsletter h1 {
-            float: left;
-        }
-        .newsletter form {
-            float: right;
-            margin-top: 15px;
-        }
-        .newsletter input[type="email"] {
-            padding: 4px;
-            height: 25px;
-            width: 250px;
-        }
-        .button {
-            height: 38px;
-            background: #e67e22;
-            border: 0;
-            padding-left: 20px;
-            padding-right: 20px;
-            color: #ffffff;
-            cursor: pointer;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
         }
         footer {
-            padding: 20px;
-            margin-top: 20px;
+            background-color: #000000;
             color: #ffffff;
-            background-color: #1d4e5f;
             text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
         }
         footer a {
-            color: #e67e22;
+            color: #ffffff;
             text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="branding">
+            <a href="#" class="logo">
                 <img src="https://raw.githubusercontent.com/rebeccaforever1/proxybeta.xyz/84bd311fded1a0b2b707ec94b1e8ee85f16b6194/ProxyBetaLogo.png" alt="Proxy-Beta Logo">
-            </div>
+            </a>
             <nav>
                 <ul>
-                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="https://www.lbs.ventures/team">About</a></li>
                     <li><a href="https://www.lbs.ventures/contact">Contact</a></li>
                 </ul>
@@ -125,26 +94,19 @@
         </div>
     </header>
 
-    <section class="showcase">
+    <section class="hero">
         <div class="container">
             <h1>Welcome to Proxy-Beta™</h1>
-            <p>Innovative solutions for tomorrow's challenges</p>
-        </div>
-    </section>
-
-    <section class="newsletter">
-        <div class="container">
-            <h1>Subscribe To Our Newsletter</h1>
-            <form>
-                <input type="email" placeholder="Enter Email...">
-                <button type="submit" class="button">Subscribe</button>
-            </form>
+            <p>Analytics for Maximizing Value in Loyalty and Subscription Programs</p>
+            <a href="#" class="cta-button">Learn More</a>
         </div>
     </section>
 
     <footer>
-        <p>Proxy-Beta™, part of Lanbrusch Ventures, LLC &copy; 2024</p>
-        <p><a href="https://www.lbs.ventures">www.lbs.ventures</a></p>
+        <div class="container">
+            <p>Proxy-Beta™, part of Lanbrusch Ventures, LLC &copy; 2024</p>
+            <p><a href="https://www.lbs.ventures">www.lbs.ventures</a></p>
+        </div>
     </footer>
 </body>
 </html>
